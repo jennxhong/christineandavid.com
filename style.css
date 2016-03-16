@@ -62,12 +62,9 @@ body {
 }
 
 #party button {
-	display: block;
-	margin: 0 auto;
-}
-
-#party .bio img {
-	width: auto;
+	display: none;
+	height: 167px;
+	width: 167px;
 }
 
 .bio {

@@ -5,3 +5,10 @@ $("#party button").on("click", function() {
 $("#party .close").on("click", function() {
   $(this).parents(".bio").toggle();
 });
+
+// $("#party img").hover(
+// 	function() {
+//   		$(this).siblings("button").show();
+//   		$(this).hide();
+// 	}
+// );
