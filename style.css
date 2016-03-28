@@ -2,6 +2,13 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
 .bg-color {
 	background-color: #E7E3E0;
 }
@@ -82,4 +89,38 @@ body {
 #party .col-md-2,
 #party .row {
 	position: static;
+}
+
+#party .close {
+	width: auto;
+}
+
+#party .lg-margin {
+	margin: 0 150px;
+}
+
+.hotel .col-md-4 {
+    height: 300px;
+    text-align: center;
+}
+
+.hotel .col-md-4:before {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+.hotel img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.more-photos {
+	text-align: center;
+}
+
+.more-photos img {
+	width: 90px;
 }

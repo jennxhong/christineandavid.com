@@ -1,4 +1,4 @@
-$("#party button").on("click", function() {
+$("#party img").on("click", function() {
   $(this).siblings(".bio").toggle();
 });
 
@@ -6,9 +6,10 @@ $("#party .close").on("click", function() {
   $(this).parents(".bio").toggle();
 });
 
-// $("#party img").hover(
-// 	function() {
-//   		$(this).siblings("button").show();
-//   		$(this).hide();
-// 	}
-// );
+$(".carousel").slick({
+    centerMode: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+});

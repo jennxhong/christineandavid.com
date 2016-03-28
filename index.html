@@ -3,17 +3,23 @@
 	<head>
 		<title>C&amp;D</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div class="navigation bg-color">
+		<div class="navigation bg-white">
 			<ul>
 				<li>
 					<a href="#">C&amp;D</a>
 				</li>
 				<li>
 					<a href="#story">Our Story</a>
+				</li>
+				<li>
+					<a href="#rsvp">RSVP</a>
 				</li>
 				<li>
 					<a href="#party">Wedding Party</a>
@@ -27,9 +33,6 @@
 				<li>
 					<a href="#gift">Gift Registry</a>
 				</li>
-				<li>
-					<a href="#rsvp">RSVP</a>
-				</li>
 			</ul>
 		</div>
 		<div id="home" class="container-fluid">
@@ -38,10 +41,18 @@
 				</div>
 			</div>
 		</div>
-		<div id="story" class="container-fluid bg-color">
+		<div id="story" class="container-fluid bg-white">
 			<div class="row">
 				<div class="col-md-12">
 					<h1>Our Story</h1>
+					<img src="https://c2.staticflickr.com/2/1642/26083464725_4db4ae1823.jpg" alt="logo" />
+				</div>
+			</div>
+		</div>
+		<div id="rsvp" class="container-fluid bg-color">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>RSVP</h1>
 				</div>
 			</div>
 		</div>
@@ -51,13 +62,13 @@
 					<h1>Wedding Party</h1>
 				</div>
 			</div>
-			<div class="row">				
+			<div class="row lg-margin">				
 				<div class="col-md-offset-1 col-md-2">
 					<img src="https://c2.staticflickr.com/2/1629/24688304184_1789f6e15a_m.jpg" />
 					<button type="button" class="btn btn-default">David Yoo</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>David Yoo (aka Lil' D)</h4>
+						<h3>David Yoo (aka Lil' D)</h3>
 						<p>David and I first met at beginning of our Freshman year at Berkeley and we found out that we had the same name and lived in the same dorm (what are the odds!). We soon became best friends and eventually roommates for the rest of our college years. There's been so many late-night talks, pick-up basketball games, gluttonous meals and other amazing memories I've shared with David. I've always felt like David's been there to share my joys and challenges in life. I'm so excited to have David be a part of this special day!</p>
 					</div>
 				</div>
@@ -66,7 +77,7 @@
 					<button type="button" class="btn btn-default">Wilson Thammavongsa</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>Wilson Thammavongsa</h4>
+						<h3>Wilson Thammavongsa</h3>
 						<p>Wilson and I have known each other since high school. We were two out of the four Asian's on our varsity Football team. We'd always talk about our aspirations in life and plan events for the distant future (we're still going to the Olympics and World Cup sometime soon!). I know Wilson is one of my lifelong brothers as we are still just as close of friends despite living 400 miles away from each other. I'm so glad to have Wilson be a part of this special day!</p>
 					</div>
 				</div>
@@ -75,7 +86,7 @@
 					<button type="button" class="btn btn-default">James Won</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>James Won</h4>
+						<h3>James Won</h3>
 						<p>When James and I started living together in college, I did not know him that well but thought he was a nice, quirky guy. I still think James is a nice, quirky guy but there are so many other words I can use to describe him. We've been fortunate to had the opportunity to both stay in the Bay Area for work and its allowed us to always hang out and serve together at church. I'm glad to be living out the post-college life in the Bay Area with James. I'm so excited to have James be a part of this special day!</p>
 					</div>
 				</div>
@@ -84,7 +95,7 @@
 					<button type="button" class="btn btn-default">Keith Chittaphong</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>Keith Chittaphong</h4>
+						<h3>Keith Chittaphong</h3>
 						<p>Keith and I have known each other for 10+ years now. We first met in World Geography class when we were assigned desks next to each other but did not become best friends until our Senior year of High School. Keith is one of the most patient and loyal friends I have. Even if we go months without catching up and talking, we know we're always there for each other. I'm so glad to have Keith be a part of this special day!</p>
 					</div>
 				</div>
@@ -93,18 +104,18 @@
 					<button type="button" class="btn btn-default">CJ Kim</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>CJ Kim</h4>
+						<h3>CJ Kim</h3>
 						<p>We've been friends for 6 years now, and my earliest memories of CJ were when he would always sleep over on the living room couch. CJ is hands-down the most knowledgeable person I know, the guy knows facts about everything! In all seriousness, he's one of the most selfless people that I've met. CJ always thinks about the other person first rather than himself. He truly exemplifies what a great brother in Christ should be like. I'm so excited to have CJ be a part of this special day!</p>
 					</div>
 				</div>
 			</div>
-			<div class="row">				
+			<div class="row lg-margin">				
 				<div class="col-md-offset-1 col-md-2">
 					<img src="https://c2.staticflickr.com/2/1688/25318919735_26720fb73e_m.jpg" />
 					<button type="button" class="btn btn-default">Jenny Park</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>Jenny Park</h4>
+						<h3>Jenny Park</h3>
 						<p>My oldest friend (in terms of duration of knowing each other). We met at church when we were just nine years old and have seen each other grow up into the women we are today. She's a sister to me and I've loved just growing UP with her. We've been there through it all - through all the birthdays, graduations, holidays, and family events. I'm so blessed to call her my best friend and I'm so glad this talented lady will not only be a bridesmaid but will be blessing us all with her beautiful singing on the day of. Love you to pieces! Thank you for standing with me on our day &lt;3</p>
 					</div>
 				</div>
@@ -113,7 +124,7 @@
 					<button type="button" class="btn btn-default">Joyce Lee</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>Joyce Lee</h4>
+						<h3>Joyce Lee</h3>
 						<p>I'm not really sure how we first met anymore, but in my memory, I had the opportunity to get close to Joyce through serving in praise team with her for many years.  She showed me what it means to care for others and serve unselfishly. Even though I don't think I'll ever address her as so, she's been an older sister to me all these years and I'm so grateful for our long chats, even the ones we'd have at 8AM in the dingy donut shop. Thank you in advance for holding down the fort pre-wedding &amp; standing with me on our day &lt;3 </p>
 					</div>
 				</div>
@@ -122,7 +133,7 @@
 					<button type="button" class="btn btn-default">Diane Kang</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>Diane Kang</h4>
+						<h3>Diane Kang</h3>
 						<p>Kang &amp; Yang!! After more than 10 years of friendship, I am so honored and blessed to have this wonderful lady as one of my bridesmaids. I spent a good deal of my high school after-school hours at her house, eating abnormal amounts of kimchi fried rice &amp; chatting incessantly about anything and everything... but mostly strawberry ice cream and shiny purple wigs. She loved me even in my swishy yellow board shorts days and I'm forever grateful. Truly one of the sweetest and bubbliest people I have in my life. Thank you for standing with me on our day &lt;3</p>
 					</div>
 				</div>
@@ -131,7 +142,7 @@
 					<button type="button" class="btn btn-default">Jennifer Hong</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>Jennifer Hong</h4>
+						<h3>Jennifer Hong</h3>
 						<p>I've had the privilege of calling Jennifer my roommate/housemate for the past 4ish years and I couldn't have asked for a better friend to live with. She lets me talk 80% of the time we're together (which works out so well for the both of us) and she's been my rock for all the wild ups and downs in my life as we both approached adulthood. I love her for her sincerity, unbelievable introversion, and unexpected kick-ass attitude about pretty much everything in life. We're still months away from the wedding but seriously, you're holding down the fort. Thank you for standing with me on our day &lt;3</p>
 					</div>
 				</div>
@@ -140,7 +151,7 @@
 					<button type="button" class="btn btn-default">Elisa Kim</button>
 					<div class="bio bg-color" style="display: none;">
 						<img src="https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-22-24.png" class="close" />
-						<h4>Elisa Kim</h4>
+						<h3>Elisa Kim</h3>
 						<p>We met 11 years ago, when I convinced this crazy girl to get her ears pierced because I claimed it was one of the best decisions of my life. I hardly knew her when we had this important conversation in our middle school locker room. Now, she's one of my closest and best friends and I'm so happy she's one of my bridesmaids. She's my most thoughtful &amp; eccentric friend and even though we drive each other nuts every single time we talk, she's got a large piece of my heart. Thank you for standing with me on our day &lt;3</p>
 					</div>
 				</div>
@@ -150,6 +161,22 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h1>Day of</h1>
+					<a href="//www.sandrockfarm.com/">
+						<img src="http://li4.cdbcdn.com/oh/e8bbb10c-8e58-4bc0-b745-26af498ea47c.jpg?w=250&amp;h=90&amp;mode=max&amp;f=20">
+						<h3>Sand Rock Farm Bed and Breakfast</h3>
+						<p>6901 Freedom Boulevard, Aptos, 95003, United States</p>
+					</a>
+				</div>
+			</div>
+			<div class="row hotel">
+				<div class="col-md-4">
+					<img src="http://static1.1.sqspcdn.com/static/f/1362963/26279722/1433255108027/quality-inn.jpg?token=9gykRu2bJdV%2BbFctrR92sDM36A0%3D">
+				</div>
+				<div class="col-md-4">
+					<img src="http://www.lumberton-nc.com/wp-content/uploads/2014/04/Best_Western_logo.svg_.png">
+				</div>
+				<div class="col-md-4">
+					<img src="http://logos.concordhotels.com/logos/MARRIOTT/FAIRFIELD%20INN%20AND%20SUITES/CARTOUCHE/FAIRFIELD_SUITES_PNG_COLOR_448x336.png">
 				</div>
 			</div>
 		</div>
@@ -157,7 +184,35 @@
 			<div class="row">
 				<div class="col-md-12">
 					<h1>Photos</h1>
+					<div class="carousel">
+						<img src="https://c2.staticflickr.com/2/1647/26059324455_412e184278_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1521/25786463470_ba12283c58_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1684/25454537904_8352c75287_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1501/26033385576_1cd0baf3d0_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1544/25966770102_fa005b3584_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1563/26033367946_5fcb3ca025_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1469/25786433810_b955b2b6c7_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1548/25456693503_577518aa22_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1509/25786527920_0a0ecaf571_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1511/25454603294_8c5a38ea7e_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1552/26033439046_d507cce265_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1671/26059364985_0af2c11967_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1606/25993018141_915c404548_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1657/25993010331_a5027779dc_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1583/26059356745_3ecea89e32_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1447/25966794692_d4eef9f62c_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1639/25454573234_52f56af7b6_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1588/25454562314_2df666d658_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1648/25966807922_53dbf72f81_b.jpg" />
+						<img src="https://c2.staticflickr.com/2/1514/25456777773_c347ea991e_b.jpg" />
+					</div>
 				</div>
+			</div>
+			<div class="row more-photos">
+				For more photos, visit 
+				<a href="//michaelryu.com/christine-david">
+					<img src="http://www.michaelryu.com/wp-content/uploads/2016/02/180_brownwatercolor-1.png" alt="Michael Ryu">
+				</a>
 			</div>
 		</div>
 		<div id="gift" class="container-fluid bg-color">
@@ -167,14 +222,8 @@
 				</div>
 			</div>
 		</div>
-		<div id="rsvp" class="container-fluid">
-			<div class="row">
-				<div class="col-md-12">
-					<h1>RSVP</h1>
-				</div>
-			</div>
-		</div>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="slick/slick.js"></script>
 		<script src="script.js"></script>
 	</body>
 </html>
