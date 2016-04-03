@@ -5,8 +5,15 @@ body {
 h1 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 70px;
-	text-align: center;
 	margin-bottom: 50px;
+}
+
+h1, h2, h4 {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 50px;
 }
 
 .bg-color {
@@ -63,6 +70,32 @@ h1 {
 	margin: 0 50px;
 }
 
+/* OUR STORY */
+
+#story h2 {
+	text-transform: uppercase;
+}
+
+#story p {
+	text-align: center;
+}
+
+#story .border {
+	border-top: 1px dashed #000;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+
+#story .border p {
+	font-size: 24px;
+}
+
+#story img {
+	padding-top: 50px;
+}
+
+/* WEDDING PARTY */
+
 #party img {
 	margin: 10px 0;
 	width: 100%;
@@ -99,6 +132,23 @@ h1 {
 	margin: 0 150px;
 }
 
+/* DAY OF */
+
+#day a {
+	text-decoration: none;
+}
+
+.venue {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 15px 0;
+	text-align: center;
+}
+
+.venue img {
+	width: 450px;
+	margin-bottom: 15px;
+}
+
 .hotel .col-md-4 {
     height: 300px;
     text-align: center;
@@ -117,10 +167,22 @@ h1 {
 	width: 40%;
 }
 
+/* PHOTOS */
+
+
 .more-photos {
 	text-align: center;
 }
 
 .more-photos img {
 	width: 90px;
+}
+
+/* GIFT REGISTRY */
+
+#gift img,
+#story .border img {
+    display: block;
+	margin: 0 auto;
+    width: 500px;
 }
