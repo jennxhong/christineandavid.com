@@ -9,9 +9,8 @@ $('#myModal').on('hidden.bs.modal', function (e) {
 })
 
 $(".carousel").slick({
-    centerMode: true,
     infinite: true,
-    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    dots: true
 });
