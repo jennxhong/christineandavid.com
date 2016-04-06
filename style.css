@@ -73,7 +73,14 @@ h2 {
 /* OUR STORY */
 
 #story h2 {
+	font-size: 27px;
 	text-transform: uppercase;
+}
+
+#story h4 {
+	color: #A9A1A0;
+	font-family: 'Dancing Script', cursive;
+	font-size: 22px;
 }
 
 #story p {
@@ -94,6 +101,22 @@ h2 {
 	padding-top: 50px;
 }
 
+/* RSVP */
+
+#rsvp {
+	padding-bottom: 0;
+}
+
+.rsvp-title {
+	position: relative;
+	z-index: 5;
+}
+
+.rsvp-form {
+    position: relative;
+    top: -175px;
+}
+
 /* WEDDING PARTY */
 
 #party img {
@@ -105,18 +128,6 @@ h2 {
 	display: none;
 	height: 167px;
 	width: 167px;
-}
-
-.bio {
-    left: 50%;
-    height: 250px;
-    margin-left: -375px;
-    margin-top: -125px;
-    padding: 25px 100px;
-    position: fixed;
-    width: 750px;
-    top: 50%;
-    z-index: 1;
 }
 
 #party .col-md-2,
@@ -139,22 +150,22 @@ h2 {
 }
 
 .venue {
-	background-color: rgba(255, 255, 255, 0.8);
+	background-color: #FFF;
 	padding: 15px 0;
 	text-align: center;
 }
 
 .venue img {
-	width: 450px;
+	width: 100%;
 	margin-bottom: 15px;
 }
 
-.hotel .col-md-4 {
-    height: 300px;
+.hotel .col-md-3 {
+    height: 250px;
     text-align: center;
 }
 
-.hotel .col-md-4:before {    /* create a full-height inline block pseudo=element */
+.hotel .col-md-3.lodge:before {    /* create a full-height inline block pseudo=element */
     content: ' ';
     display: inline-block;
     vertical-align: middle;  /* vertical alignment of the inline element */
@@ -164,11 +175,10 @@ h2 {
 .hotel img {
 	display: inline-block;
 	vertical-align: middle;
-	width: 40%;
+	width: 50%;
 }
 
 /* PHOTOS */
-
 
 .more-photos {
 	text-align: center;
