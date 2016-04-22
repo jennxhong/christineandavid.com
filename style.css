@@ -1,14 +1,16 @@
+@font-face { font-family: Madina Script; src: url('Madina-Script.otf'); } 
+
 body {
 	font-family: 'Lato', sans-serif;
 }
 
 h1 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 70px;
+	font-family: 'Madina Script', cursive;
+	font-size: 80px;
 	margin-bottom: 50px;
 }
 
-h1, h2, h4 {
+h1, h2, h3, h4 {
 	text-align: center;
 }
 
@@ -29,7 +31,7 @@ h2 {
 	position: fixed;
 	text-transform: uppercase;
 	width: 100%;
-	z-index: 1;
+	z-index: 5;
 }
 
 .navigation ul {
@@ -58,7 +60,7 @@ h2 {
 
 #home {
 	background: #FFF url("https://c2.staticflickr.com/2/1523/25200667232_9b202df946_o.jpg") 0/cover no-repeat;
-	height: 750px;
+	height: 800px;
 }
 
 .container-fluid {
@@ -109,7 +111,7 @@ h2 {
 
 .rsvp-title {
 	position: relative;
-	z-index: 5;
+	z-index: 2;
 }
 
 .rsvp-form {
@@ -128,24 +130,34 @@ h2 {
 	margin: 0 150px;
 }
 
+.modal-dialog {
+	margin-top: 100px;
+	width: 900px;
+}
+
 #myModal h3 {
-	font-family: 'Dancing Script', cursive;
-	font-size: 36px;
+	float: left;
+	font-family: 'Madina Script', cursive;
+	font-size: 56px;
+	text-align: initial;
 }
 
 #myModal p {
+	float: left;
 	font-size: 18px;
+	width: 500px;
 }
 
 .bio {
-	padding: 20px 50px;
+	overflow: hidden;
+	padding: 15px;
 }
 
-.modal-dialog {
-	margin-top: 100px;
-	width: 810px;
+.bio img {
+	float: left;
+	margin-right: 20px;
+	width: 285px;
 }
-
 /* DAY OF */
 
 #day a {
@@ -167,12 +179,16 @@ h2 {
 	font-size: 21px;
 }
 
-.hotel .col-md-3 {
-    height: 250px;
+.hotel .col-md-12 {
+	padding: 20px 0;
+}
+
+.hotel .col-md-2 {
+    height: 120px;
     text-align: center;
 }
 
-.hotel .col-md-3.lodge:before {    /* create a full-height inline block pseudo=element */
+.hotel .col-md-2.lodge:before {    /* create a full-height inline block pseudo=element */
     content: ' ';
     display: inline-block;
     vertical-align: middle;  /* vertical alignment of the inline element */
@@ -182,13 +198,13 @@ h2 {
 .hotel img {
 	display: inline-block;
 	vertical-align: middle;
-	width: 200px;
+	width: 120px;
 }
 
 .hotel h3 {
-	font-family: "Dancing script", cursive;
+	font-family: "Madina script", cursive;
 	font-size: 50px;
-	padding-top: 100px;
+	padding-top: 30px;
 }
 
 /* PHOTOS */
