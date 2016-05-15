@@ -105,18 +105,38 @@ h2 {
 
 /* RSVP */
 
-#rsvp {
-	padding-bottom: 0;
+#rsvp input {
+    height: 35px;
+    width: 250px;
 }
 
-.rsvp-title {
-	position: relative;
-	z-index: 2;
+#rsvp label {
+	font-size: 17px;
+    font-weight: normal;
+	margin-right: 10px;
+}
+
+#rsvp form {
+	overflow: hidden;
+}
+
+#rsvp button {
+    background-color: rgba(202, 168, 135, 0.6);
+    color: white;
+	font-size: 15px;
+    font-weight: 700;
+	margin-top: 50px;
+	padding: 5px 40px;
+    text-transform: uppercase;
 }
 
 .rsvp-form {
-    position: relative;
-    top: -175px;
+	margin-top: 50px;
+}
+
+.ss-form-question {
+	margin-bottom: 10px;
+	text-align: right;
 }
 
 /* WEDDING PARTY */
