@@ -271,3 +271,10 @@ h2 {
 	margin-top: 300px;
 	width: 270px;
 }
+
+/* FOOTER */
+
+#footer p {
+	text-align: center;
+	text-transform: uppercase;
+}
