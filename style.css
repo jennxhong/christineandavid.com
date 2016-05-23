@@ -233,8 +233,17 @@ h2 {
 	width: 300px;
 }
 
-.map {
-	width: 600px;
+.map.col-md-4:before {    /* create a full-height inline block pseudo=element */
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;  /* vertical alignment of the inline element */
+    height: 100%;
+}
+
+.map img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
 }
 
 .hotel .col-md-12 {
@@ -259,7 +268,7 @@ h2 {
 }
 
 .hotel h3 {
-	font-family: "Madina script", cursive;
+	font-family: "Madina Script", cursive;
 	font-size: 50px;
 	padding-top: 30px;
 }
