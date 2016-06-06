@@ -136,7 +136,13 @@ h2 {
     width: 250px;
 }
 
-#rsvp label {
+#rsvp input[type=radio] {
+	height: 15px;
+    width: 85px;
+}
+
+#rsvp label,
+.rsvp-form span {
 	font-size: 17px;
     font-weight: normal;
 	margin-right: 10px;
